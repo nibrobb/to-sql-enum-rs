@@ -16,7 +16,7 @@ where
 
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use super::ToSqlEnum;
     use strum_macros::{Display, EnumIter};
 
     #[derive(Copy, Clone, EnumIter, Display)]
